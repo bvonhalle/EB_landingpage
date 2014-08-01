@@ -1,7 +1,6 @@
-.row {
+#one {
 	background-color: #2884c5;
 	text-align: center;
-	padding-top: -20px;
 	overflow: hidden;
 }
 
@@ -32,12 +31,10 @@
 	width: 200px;
 }
 
-.row .frontlefttext {
+#one .col-sm-6 p {
 	color: white;
 	font-family: "Geogrotesque";
 	clear: both;
-	float: left;
-	width: 50%;
 	padding-left: 50px;
 	padding-right: 30px;
 	font-size: 18px;
@@ -67,8 +64,8 @@
 	padding-right: 7%;
 }
 
-.row .birds li:nth-child(1) img {
-	width: 14%;
+#egg {
+	width: 14;
 }
 
 .row .birds li:nth-child(2) img {
@@ -83,20 +80,19 @@
 	width: 16%;
 }
 
-.box2 {
+#two {
 	background-color: #1e6394;
-	margin-top: -20px;
 	text-align: center;
 	overflow: hidden;
 }
 
-.box2 .features li {
+#two .features li {
 	display: inline;
 	list-style-type: none;
 	padding-right: 7%;
 }
 
-.box2 .features {
+#two .features {
 	margin-top: 70px;
 	padding-bottom: 70px;
 }
@@ -116,14 +112,13 @@
 	padding-top: 1%;
 }
 
-.box3 {
+#three {
 	background-color: #2884c5;
-	margin-top: -20px;
 	text-align: center;
 	overflow: hidden;
 }
 
-.box3 h1 {
+#three h2 {
 	width: 50%;
 	color: white;
 	font-family: "Geogrotesque";
@@ -132,24 +127,21 @@
 	line-height: 95%;
 	padding-left: 3%;
 	padding-right: 3%;
-    float: left;
     padding-top: 10%;
 }
 
-.box3 .demo img {
-	width: 50%;
-	float: left;
-	padding: 5px;
+#three img {
+	padding: 10px;
 }
 
-.box4 {
+#four {
 	background-color: #333333;
 	text-align: center;
 	overflow: hidden;
 	padding-top: 80px;
 }
 
-.box4 h1 {
+#four h1 {
 	font-family: "Geogrotesque";
 	font-style: italic;
 	font-size: 40px;
@@ -157,7 +149,7 @@
 	margin-bottom: 50px;
 }
 
-.box4 .btn {
+#four .btn {
 	font-family: "Geogrotesque";
 	font-size: 20px;
 	font-style: italic;
@@ -175,5 +167,6 @@
 	border-radius: 30px;
 	width: 200px;
 }
+
 
 
